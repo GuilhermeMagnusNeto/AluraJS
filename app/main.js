@@ -6,5 +6,5 @@ getBuscarLivrosDaAPI()
 async function getBuscarLivrosDaAPI() {
     const res = await fetch(endpointDaAPI)
     livros = await res.json()
-    console.table(llivros)
+    console.table(livros)
 }
